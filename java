@@ -104,6 +104,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             res.setText(String.valueOf(a));
 
         }
+         else
+            displayInvalidMessage("Invalid input");
 
     }
     private void sub(String data) {
@@ -115,6 +117,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             res.setText(String.valueOf(a));
 
         }
+         else
+            displayInvalidMessage("Invalid input");
     }
 
 
